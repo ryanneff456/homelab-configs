@@ -3,7 +3,7 @@
 This virtual machine is configured for penetration testing practice and security research.  
 It connects to **NVWA hosted on a Raspberry Pi** within my LAN, allowing ethical testing of web application vulnerabilities.-
 
-##Setup Process
+## Setup Process
 1. Installed **Kali Linux** in VirtualBox/VMware  
 2. Configured network to allow **LAN access** to the Raspberry Pi hosting NVWA  
 3. Installed pentesting tools:
@@ -12,7 +12,7 @@ It connects to **NVWA hosted on a Raspberry Pi** within my LAN, allowing ethical
    - **Metasploit** for exploit testing  
 4. Verified connectivity to NVWA on the Pi via browser and tools
 
-##P entesting Practice
+## Pentesting Practice
 
 | Tool / App          | Purpose                                                            |
 |---------------------|--------------------------------------------------------------------|
