@@ -1,4 +1,3 @@
-'''markdown
 # Homelab & Systems Portfolio
 This repository showcases my hands-on experience configuring Linux systems, virutal machines, and server environments.
 
