@@ -6,6 +6,7 @@ The laptop could not run the latest macOS, so this setup required hardware troub
 The goal was to create a lightweight, stable, and productive system on older hardware.
 
 ## Contents
+```text
 |---macbook-arch-install/
     |---config/
         |---waybar_config.jsonc		//config file used for customization of waybar (taskbar tool for hyprland)
@@ -20,6 +21,7 @@ The goal was to create a lightweight, stable, and productive system on older har
         |---brightness.sh		//script that is run in waybar_config.jsonc, used to show and modify current screen brightness levels from the desktop
         |---gmail-unread.py		//script that is run in waybar_config.jsonc, used to scrape google for unread email numbers, displays it on waybar, and provides a direct link to my gmail account
         |---auto-update.sh 		//script used for automatically searching for updates through pacman and AUR, run with cron once a week
+```
 
 ## Setup Process
 1. Installed Arch Linux on the MacBook, including partitioning and bootloader configuration  
