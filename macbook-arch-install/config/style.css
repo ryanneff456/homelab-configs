@@ -1,0 +1,33 @@
+* {
+    font-family: "FiraCode Nerd Font", monospace;
+    font-size: 12px;
+    color: #ffffff;
+    border: none;
+}
+
+## Stylization of individual windows on the desktop environment
+window#waybar {
+    background: #1e1e2e;
+    border-bottom: 2px solid #444;
+}
+
+## Stylization of workspaces button used in the top left corner, both active and inactive buttons
+#workspaces button {
+    padding: 0 8px;
+    color: #a6adc8;
+}
+#workspaces button.active {
+    background: #89b4fa;
+    color: #1e1e2e;
+    border-radius: 8px;
+}
+
+## Stylization of the individual buttons on the Waybar
+.module  {
+    padding: 2px 6px;
+    margin: 1 2px;     
+    color: #f8f8f2;
+    border-radius: 6px;
+    font-size: 12px;
+}
+

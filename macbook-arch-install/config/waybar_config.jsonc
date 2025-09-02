@@ -1,0 +1,55 @@
+
+## This section handles what modules are in the waybar, as well as where they are placed, and information about the clock modules
+{
+  "layer": "top",
+  "position": "top",
+  "height": 28,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["custom/gmail", "network", "custom/brightness",  "pulseaudio", "battery"],
+
+  "clock": {
+    "format": "  {:%I:%M%p  %m-%d-%Y}",
+  },
+
+## A custom css class used to display the amount of unread emails that are currently in my mailbox to the desktop. 
+## Redirects to gmail on-click, and uses the 'gmail-unread.py' script to scrape unread email numbers
+  "custom/gmail": {
+    "exec": "/home/ryan/.config/waybar/scripts/gmail-unread.py",
+    "interval": 60,
+    "tooltip": false,
+    "on-click": "google-chrome-stable --new-window https://mail.google.com"
+  },
+
+## A custom css class that uses 'brightness.sh' to display the current screen brightness percentage setting on the desktop
+## Raises brightness by 10% when left clicked, lowers by 10% when right clicked. Brightness is also adjustable through binds in waybar_config.jsonc
+  "custom/brightness": {
+    "exec": "/home/ryan/.config/waybar/scripts/brightness.sh",
+    "interval": 5,
+    "format": "  {}%",
+    "on-click": "brightnessctl set +10%",
+    "on-click-right": "brightnessctl set 10%-"
+  },
+
+## Displays the current connection SSID and strength, showing an alert when disconnected. Also redirects to Network Manager GUI when clicked
+  "network": {
+    "format-wifi": "  {essid} ({signalStrength}%)",
+    "format-ethernet": "  {ipaddr}/{cidr}",
+    "format-disconnected": "  Disconnected",
+    "on-click": "nm-connection-editor"
+  },
+
+## Displays the current volume level of the computer, and redirects to Audio Control GUI when clicked. Volume can be changed through binds in waybar_config.jsonc
+  "pulseaudio": {
+    "format": "  {volume}%",
+    "format-muted": "  Muted",
+    "on-click": "pavucontrol"
+  },
+
+## Displays the current battery percentage of the computer, and redirects to the Gnome desktop Power Manager when clicked
+  "battery": {
+    "format": "{icon}  {capacity}%",
+    "format-icons": ["", "", "", "", ""],
+    "on-click": "gnome-power-statistics"
+  }
+}
