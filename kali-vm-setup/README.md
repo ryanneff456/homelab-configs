@@ -23,14 +23,6 @@ It connects to **NVWA hosted on a Raspberry Pi** within my LAN, allowing ethical
 | MySQL               | Used in DVWA for practicing SQL injection attacks                  |
 | John the Ripper     | Hash cracking and password security testing                        |
 
-
-## Connecting to NVWA
-# Test connectivity from Kali VM to Pi
-ping 192.168.1.184
-
-# Access DVWA in browser
-http://192.168.1.184:3000
-
 ## Skills Demonstrated
 -- Virtual machine setup and configuration for ethical pentesting
 -- Practical web application sercurity testing (SQLi, XSS, CSRF) on DVWA using MySQL
