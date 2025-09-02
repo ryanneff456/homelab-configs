@@ -73,6 +73,6 @@ sudo pacman -Rns $(pacman -Qdtq) --noconfirm
 -- Bash scripting and automation for updates and maintenance
 
 ## Desktop/Terminal Example
-![Hyprland/Waybar Example](../screenshots/hyprland.png)
+![Hyprland/Waybar Example](../macbook-arch-install/screenshots/hyprland.png)
 
-![Terminal Example](../screenshots/terminal.png)
+![Terminal Example](../macbook-arch-install/screenshots/terminal.png)
