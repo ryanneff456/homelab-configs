@@ -25,7 +25,6 @@ It connects to **NVWA hosted on a Raspberry Pi** within my LAN, allowing ethical
 
 
 ## Connecting to NVWA
-```bash
 # Test connectivity from Kali VM to Pi
 ping 192.168.1.184
 
