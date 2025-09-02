@@ -11,6 +11,20 @@ It connects to **NVWA hosted on a Raspberry Pi** within my LAN, allowing ethical
    - **Metasploit** for exploit testing  
 4. Verified connectivity to NVWA on the Pi via browser and tools
 
+## Contents
+```text
+|---kali-vm-setup/
+    |---sample-output/
+        |---capture.pcap         //sample .pcap output file created by recon.sh, contains 10 seconds worth of captured packets, openable in Wireshark
+        |---john-output.txt      //sample output file created by john-example.sh, contains cracked passwords
+        |---mmap-scan.txt        //sample output file created by recon.sh, contains information about
+        |---test.hash            //sample hash file created by the john-example.sh to encrypt passwords and manually check results
+    |---scripts
+        |---john-example.sh      //custom bash script that creates a sample hash, password, and accesses a pre-existing wordlist (rockyou.txt)
+        |---recon.sh             //custom script that takes an input address from the user, and does a basic nmap scan while capturing 10 seconds of packet data
+    |---README.md
+```
+
 ## Pentesting Practice
 
 | Tool / App          | Purpose                                                            |
