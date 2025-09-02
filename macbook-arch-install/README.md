@@ -53,11 +53,11 @@ yay -Syu --noconfirm
 sudo pacman -Rns $(pacman -Qdtq) --noconfirm
 
 # Challenges & Solutions
--- Legacy Hardware: MacBook was no longer supported by latest macOS, so I configured a lightweight Linux setup
--- GPU/Driver Issues: Manually installed and configured drivers for stable graphics performance
--- Package Dependencies: Used Pacman and AUR helpers to resolve complex package conflicts
--- System Performance: Tuned CPU scaling, memory usage, and startup services for faster boot and responsiveness
--- Power Consumption: MacBook previously was not able to run off the charger, now holds 3.6 hours of battery life through optimized power consumption
+-- **Legacy Hardware:** MacBook was no longer supported by latest macOS, so I configured a lightweight Linux setup
+-- **GPU/Driver Issues:** Manually installed and configured drivers for stable graphics performance
+-- **Package Dependencies:** Used Pacman and AUR helpers to resolve complex package conflicts
+-- **System Performance:** Tuned CPU scaling, memory usage, and startup services for faster boot and responsiveness
+-- **Power Consumption:** MacBook previously was not able to run off the charger, now holds 3.6 hours of battery life through optimized power consumption
 
 ## Results
 -- Fully functional and visually appealing Linux desktop on a legacy MacBook
