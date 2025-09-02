@@ -7,6 +7,7 @@ This project demonstrates skills in Linux system administration, networking, aut
 
 ## Contents
 Table of contents and additional information of each subfolder
+```text
 |---raspberry-pi-server
     |---config/
         |---dvwa_config.inc.php 		//configuration file for my DVWA webpage used for pentesting
@@ -26,7 +27,8 @@ Table of contents and additional information of each subfolder
     |---scripts/
         |---daily-update.log			//log file that stores printed messages from daily-update.sh
         |---daily-update.sh			//automated update script that uses cron to run every day at 3AM, printing a message into daily-update.log 
-	
+```
+
 ## Setup Process
 1. Installed Raspberry Pi OS Lite for a minimal, headless environment  
 2. Configured a static IP for network stability  
