@@ -1,4 +1,3 @@
-'''markdown
 # Arch Linux on 2012 MacBook
 
 ## Overview
