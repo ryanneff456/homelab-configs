@@ -1,0 +1,6 @@
+Loaded 1 password hash (sha512crypt, crypt(3) $6$ [SHA512 128/128 AVX 2x])
+Cost 1 (iteration count) is 5000 for all loaded hashes
+mypassword       (user)     
+user:mypassword
+
+1 password hash cracked, 0 left
