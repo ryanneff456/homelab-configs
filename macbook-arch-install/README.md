@@ -47,10 +47,12 @@ monitor=1,1920x1200,0x0,1
 bind=SUPER+ENTER,exec,foot  
 
 ## Automated Updates Script 'update.sh'  
+```bash
 #!/bin/bash  
 sudo pacman -Syu --noconfirm  
 yay -Syu --noconfirm  
-sudo pacman -Rns $(pacman -Qdtq) --noconfirm  
+sudo pacman -Rns $(pacman -Qdtq) --noconfirm
+```
 
 # Challenges & Solutions  
 -- **Legacy Hardware:** MacBook was no longer supported by latest macOS, so I configured a lightweight Linux setup  
