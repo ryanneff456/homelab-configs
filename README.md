@@ -17,7 +17,7 @@ This repo documents those setups, along with notes, configuration files, and les
 ## Skills Demonstrated
 - **Operating System Installation**: Windows, Kali Linux, Arch Linux, Raspberry Pi OS
 - **System Configuration**: Networking, package management, BIOS/UEFI tuning
-- **Server Management**: Docker, containerized applications  Nextcloud, Jellyfin)
+- **Server Management**: Docker, containerized applications  Nextcloud, Jellyfin
 - **Networking & Security**: Configured WireGuard VPN for secure remote access
 - **Monitoring & Visualization**: Set up Grafana dashboards to track system performance
 - **Remote Administration**: Managed servers via SSH with key-based authentication
