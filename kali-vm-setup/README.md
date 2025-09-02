@@ -1,4 +1,3 @@
-```markdown
 ## Overview
 This virtual machine is configured for penetration testing practice and security research.  
 It connects to **NVWA hosted on a Raspberry Pi** within my LAN, allowing ethical testing of web application vulnerabilities.-
