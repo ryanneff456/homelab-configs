@@ -56,7 +56,7 @@ Table of contents and additional information of each subfolder
 
 ## Example Configuration
 
-### Bash Script for Automated Updates (`update.sh`)
+# Bash Script for Automated Updates (`update.sh`)
 '''bash
 #!/bin/bash  
 # Update package lists and upgrade packages  
