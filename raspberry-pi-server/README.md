@@ -56,13 +56,14 @@ Table of contents and additional information of each subfolder
 
 ## Example Configuration
 
-# Bash Script for Automated Updates (`update.sh`)
-'''bash
+### Bash Script for Automated Updates (`update.sh`)
+```bash
 #!/bin/bash  
-# Update package lists and upgrade packages  
+ Update package lists and upgrade packages  
 sudo apt update && sudo apt -y upgrade  
 # Clean up unnecessary packages  
 sudo apt -y autoremove  
+```
 
 This script runs automatically via cron to maintain system security and stability
 
