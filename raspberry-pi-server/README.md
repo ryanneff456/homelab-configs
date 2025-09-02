@@ -58,46 +58,46 @@ Table of contents and additional information of each subfolder
 
 ### Bash Script for Automated Updates (`update.sh`)
 '''bash
-#!/bin/bash
-# Update package lists and upgrade packages
-sudo apt update && sudo apt -y upgrade
-# Clean up unnecessary packages
-sudo apt -y autoremove
+#!/bin/bash  
+# Update package lists and upgrade packages  
+sudo apt update && sudo apt -y upgrade  
+# Clean up unnecessary packages  
+sudo apt -y autoremove  
 
 This script runs automatically via cron to maintain system security and stability
 
-## Challenges & Solutions
--- DNS Conflicts: ISP router was also serving DNS. Disabled router DHCP to allow Pi-hole to serve as the default DNS and DHCP server in the LAN.
--- Storage limitations: Attatched 1 TB external HDD for Nextcloud files
--- Remote acces: Configured WireGuard with key-based authentication for secure VPN access
--- Monitoring: Installed Grafana and Node Exporter to track CPU, memory, and network usage
+## Challenges & Solutions  
+-- DNS Conflicts: ISP router was also serving DNS. Disabled router DHCP to allow Pi-hole to serve as the default DNS and DHCP server in the LAN.  
+-- Storage limitations: Attatched 1 TB external HDD for Nextcloud files  
+-- Remote acces: Configured WireGuard with key-based authentication for secure VPN access  
+-- Monitoring: Installed Grafana and Node Exporter to track CPU, memory, and network usage  
 
 ## Results
--- Pi-hole filters ads and trackers across the entire home network
--- Nextcloud provides reliable personal cloud storage across devices
--- WireGuard VPN allows secure access to the home network from anywhere
--- Grafana dashboards provide insight into system performance
--- Automated updates ensure the system remains secure with minimal maintenance
+-- Pi-hole filters ads and trackers across the entire home network  
+-- Nextcloud provides reliable personal cloud storage across devices  
+-- WireGuard VPN allows secure access to the home network from anywhere  
+-- Grafana dashboards provide insight into system performance  
+-- Automated updates ensure the system remains secure with minimal maintenance  
 
 ## Skills Demonstrated
--- Manual Linux system setup and service installation
--- Networking configuration and DNS management
--- VPN setup with WireGuard for secure remote access
--- System monitoring with Grafana dashboards
--- Bash scripting for automation of updates
--- Remote administration via SSH
--- Troubleshooting service conflicts and resource limitations
+-- Manual Linux system setup and service installation  
+-- Networking configuration and DNS management  
+-- VPN setup with WireGuard for secure remote access  
+-- System monitoring with Grafana dashboards  
+-- Bash scripting for automation of updates  
+-- Remote administration via SSH  
+-- Troubleshooting service conflicts and resource limitations  
 
 ## Example Screenshots
 
 DVWA Web Page
-![DVWA Web Page Example](../raspberry-pi-server/screenshots/dvwa.png)
+![DVWA Web Page Example](../raspberry-pi-server/screenshots/dvwa.png)  
 
 Pi Hole Web UI Dashboard
-![Pi Hole Web UI Dashboard Example](../raspberry-pi-server/screenshots/pihole_dashboard.png)
+![Pi Hole Web UI Dashboard Example](../raspberry-pi-server/screenshots/pihole_dashboard.png)  
 
 Grafana Dashboard for Pi Hole
-![Grafana Dashboard for Pi Hole Example](../raspberry-pi-server/screenshots/pihole_graf_dashboard.png)
+![Grafana Dashboard for Pi Hole Example](../raspberry-pi-server/screenshots/pihole_graf_dashboard.png)  
 
 Grafana Dashboard for Raspberry Pi
-![Grafana Dashboard for Raspberry Pi Metrics Example](../raspberry-pi-server/screenshots/raspberrypi_graf_dashboard.png)
+![Grafana Dashboard for Raspberry Pi Metrics Example](../raspberry-pi-server/screenshots/raspberrypi_graf_dashboard.png)  
