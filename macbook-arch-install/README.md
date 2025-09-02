@@ -24,7 +24,7 @@ The goal was to create a lightweight, stable, and productive system on older har
 ```
 
 ## Setup Process
-1. Installed Arch Linux on the MacBook, including partitioning and bootloader configuration  
+1. Installed Arch Linux on the MacBook, including partitioning and bootloader configuration   
 2. Configured networking, locale, and keyboard layouts for optimal usability  
 3. Installed and configured Xorg and the Hyprland window manager for a modern, minimal desktop experience  
 4. Set up Zsh with Powerlevel10k for a productive shell environment  
@@ -42,39 +42,39 @@ The goal was to create a lightweight, stable, and productive system on older har
 | Performance Optimization | Tweaks for CPU scaling, memory usage, and GPU support for legacy MacBook  |
 | Automation               | Bash scripts for system updates and maintenance tasks                     |
 
-## 'hyprland.conf' snippet
-monitor=1,1920x1200,0x0,1
-bind=SUPER+ENTER,exec,foot
+## 'hyprland.conf' snippet  
+monitor=1,1920x1200,0x0,1  
+bind=SUPER+ENTER,exec,foot  
 
-## Automated Updates Script 'update.sh'
-#!/bin/bash
-sudo pacman -Syu --noconfirm
-yay -Syu --noconfirm
-sudo pacman -Rns $(pacman -Qdtq) --noconfirm
+## Automated Updates Script 'update.sh'  
+#!/bin/bash  
+sudo pacman -Syu --noconfirm  
+yay -Syu --noconfirm  
+sudo pacman -Rns $(pacman -Qdtq) --noconfirm  
 
-# Challenges & Solutions
--- **Legacy Hardware:** MacBook was no longer supported by latest macOS, so I configured a lightweight Linux setup
--- **GPU/Driver Issues:** Manually installed and configured drivers for stable graphics performance
--- **Package Dependencies:** Used Pacman and AUR helpers to resolve complex package conflicts
--- **System Performance:** Tuned CPU scaling, memory usage, and startup services for faster boot and responsiveness
--- **Power Consumption:** MacBook previously was not able to run off the charger, now holds 3.6 hours of battery life through optimized power consumption
+# Challenges & Solutions  
+-- **Legacy Hardware:** MacBook was no longer supported by latest macOS, so I configured a lightweight Linux setup  
+-- **GPU/Driver Issues:** Manually installed and configured drivers for stable graphics performance  
+-- **Package Dependencies:** Used Pacman and AUR helpers to resolve complex package conflicts  
+-- **System Performance:** Tuned CPU scaling, memory usage, and startup services for faster boot and responsiveness  
+-- **Power Consumption:** MacBook previously was not able to run off the charger, now holds 3.6 hours of battery life through optimized power consumption  
 
 ## Results
--- Fully functional and visually appealing Linux desktop on a legacy MacBook
--- Lightweight setup optimized for performance and usability
--- Fully automated maintenance with update scripts
--- Stable environment for development, daily tasks, and personal projects
+-- Fully functional and visually appealing Linux desktop on a legacy MacBook  
+-- Lightweight setup optimized for performance and usability  
+-- Fully automated maintenance with update scripts  
+-- Stable environment for development, daily tasks, and personal projects  
 
 ## Skills Demonstrated
--- Manual installation and configuration of Arch Linux on legacy hardware
--- Desktop environment setup and window manager configuration (Hyprland)
--- Shell customization and productivity with zsh and Powerlevel10k
--- Performance tuning for older laptops (CPU, memory, GPU)
--- Package management with Packman and AUR
--- System monitoring and troubleshooting
--- Bash scripting and automation for updates and maintenance
+-- Manual installation and configuration of Arch Linux on legacy hardware  
+-- Desktop environment setup and window manager configuration (Hyprland)  
+-- Shell customization and productivity with zsh and Powerlevel10k  
+-- Performance tuning for older laptops (CPU, memory, GPU)  
+-- Package management with Packman and AUR  
+-- System monitoring and troubleshooting  
+-- Bash scripting and automation for updates and maintenance  
 
-## Desktop/Terminal Example
-![Hyprland/Waybar Example](../macbook-arch-install/screenshots/hyprland.png)
+## Desktop/Terminal Example  
+![Hyprland/Waybar Example](../macbook-arch-install/screenshots/hyprland.png)  
 
-![Terminal Example](../macbook-arch-install/screenshots/terminal.png)
+![Terminal Example](../macbook-arch-install/screenshots/terminal.png)  
