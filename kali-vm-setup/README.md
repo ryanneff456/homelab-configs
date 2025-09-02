@@ -24,18 +24,18 @@ It connects to **NVWA hosted on a Raspberry Pi** within my LAN, allowing ethical
 | John the Ripper     | Hash cracking and password security testing                        |
 
 ## Skills Demonstrated
--- Virtual machine setup and configuration for ethical pentesting
--- Practical web application sercurity testing (SQLi, XSS, CSRF) on DVWA using MySQL
--- Hash analysis and password cracking with John the Ripper
--- Network traffic capture and analysis with Wireshark
--- LAN configuration and connectivity to hosted services
--- Use of professional pentesting tools (Burp Suite, Metasploit, Nmap) in a controlled lab
+-- Virtual machine setup and configuration for ethical pentesting  
+-- Practical web application sercurity testing (SQLi, XSS, CSRF) on DVWA using MySQL  
+-- Hash analysis and password cracking with John the Ripper  
+-- Network traffic capture and analysis with Wireshark  
+-- LAN configuration and connectivity to hosted services  
+-- Use of professional pentesting tools (Burp Suite, Metasploit, Nmap) in a controlled lab  
 
 ## Pentesting Practice Examples
--- SQL Injection: Exploited DVWA login forms using SQL queries; practiced safely on MySQL database
--- XSS & CSRF: Tested web forms for cross-site scripting and request forgery vulnerabilities
--- Password Cracking: Used John thr Ripper to test password hashes in DVWA
--- Network Analysis: Captured and analyzed HTTP and other traffic using Wireshark
+-- **SQL Injection:** Exploited DVWA login forms using SQL queries; practiced safely on MySQL database  
+-- **XSS & CSRF:** Tested web forms for cross-site scripting and request forgery vulnerabilities  
+-- **Password Cracking:** Used John thr Ripper to test password hashes in DVWA  
+-- **Network Analysis:** Captured and analyzed HTTP and other traffic using Wireshark  
 
-## Disclaimer
+## Disclaimer  
 All of these tools were only used in an educational sense on my own DVWA in a controlled and secure LAN setting.
