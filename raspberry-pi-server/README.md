@@ -87,7 +87,8 @@ This script runs automatically via cron to maintain system security and stabilit
 -- Troubleshooting service conflicts and resource limitations
 
 ## Example Screenshots
-![DVWA Web Page Example](../raspberry-pi-server/screenshots/dvwa.png)
+![DVWA Web Page Example]
+(../raspberry-pi-server/screenshots/dvwa.png)
 
 ![Pi Hole Web UI Dashboard Example](../raspberry-pi-server/screenshots/pihole_dashboard.png)
 
