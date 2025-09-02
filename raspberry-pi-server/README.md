@@ -10,23 +10,23 @@ Table of contents and additional information of each subfolder
 ```text
 |---raspberry-pi-server
     |---config/
-        |---dvwa_config.inc.php 		//configuration file for my DVWA webpage used for pentesting
-        |---grafana.ini 			//config used for hosting the grafana web UI, used for dashboards
-        |---pihole.toml 			//config used for setting up and hosting the pihole web UI
-        |---wg0.conf	 			//config used for setting up Wireguard VPN
+        |---dvwa_config.inc.php 		    //configuration file for my DVWA webpage used for pentesting
+        |---grafana.ini 			        //config used for hosting the grafana web UI, used for dashboards
+        |---pihole.toml 			        //config used for setting up and hosting the pihole web UI
+        |---wg0.conf	 			        //config used for setting up Wireguard VPN
     |---grafana/
         |---dashboards
             |---pihole_dashboard.json		//configuration file used for the pihole Grafana dashboard
             |---raspberrypi_dashboard.json 	//configuration file used for general monitoring of the Raspberry Pi device 
     |---README.md
     |---screenshots/
-        |---dvwa.png				//screenshot of the DVWA home page
-        |---pihole_dashboard.png		//screenshot of the dashboard on the PiHole home page
+        |---dvwa.png				        //screenshot of the DVWA home page
+        |---pihole_dashboard.png		    //screenshot of the dashboard on the PiHole home page
         |---pihole_graf_dashboard.png		//screenshot of the Grafana dashboard for PiHole data
         |---raspberrypi_graf_dashboard.png	//screenshot of the Grafana dashboard for data on the Raspberry Pi itself
     |---scripts/
-        |---daily-update.log			//log file that stores printed messages from daily-update.sh
-        |---daily-update.sh			//automated update script that uses cron to run every day at 3AM, printing a message into daily-update.log 
+        |---daily-update.log			    //log file that stores printed messages from daily-update.sh
+        |---daily-update.sh			        //automated update script that uses cron to run every day at 3AM, printing a message into daily-update.log 
 ```
 
 ## Setup Process
