@@ -91,14 +91,13 @@ This script runs automatically via cron to maintain system security and stabilit
 
 ## Example Screenshots
 
-DVWA Web Page
-![DVWA Web Page Example](../raspberry-pi-server/screenshots/dvwa.png)  
 
-Pi Hole Web UI Dashboard
-![Pi Hole Web UI Dashboard Example](../raspberry-pi-server/screenshots/pihole_dashboard.png)  
+[DVWA Login Page](../raspberry-pi-server/screenshots/dvwa_login.png)  
 
-Grafana Dashboard for Pi Hole
-![Grafana Dashboard for Pi Hole Example](../raspberry-pi-server/screenshots/pihole_graf_dashboard.png)  
+[DVWA Home Page](../raspberry-pi-server/screenshots/dvwa_homepage.png)
 
-Grafana Dashboard for Raspberry Pi
-![Grafana Dashboard for Raspberry Pi Metrics Example](../raspberry-pi-server/screenshots/raspberrypi_graf_dashboard.png)  
+[Pi Hole Web UI Dashboard](../raspberry-pi-server/screenshots/pihole_dashboard.png)  
+
+[Grafana Dashboard for Pi Hole](../raspberry-pi-server/screenshots/pihole_grafana.png)  
+
+[Grafana Dashboard for Raspberry Pi Metrics](../raspberry-pi-server/screenshots/raspberrypi_grafana.png)  
