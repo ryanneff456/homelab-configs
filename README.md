@@ -10,7 +10,7 @@ This repo documents those setups, along with notes, configuration files, and les
 |                    Project                     |        Technologies         |                                    Highlights                                       |
 |------------------------------------------------|-----------------------------|-------------------------------------------------------------------------------------|
 | [Kali Linux VM](./kali-vm-setup)               | VirtualBox, Kali Linux      | Configured VM for penetration testing with custom networking                        |
-| [Raspberry Pi Server](./raspberry-pi-server)   | Raspberry Pi OS, Docker     | Home server with Pi-hole, WireGuard VPN, and Grafana/Prometheus scraping            |
+| [Raspberry Pi Server](./raspberry-pi-server)   | Raspberry Pi OS, SSH, Wireguard     | Home server with Pi-hole, WireGuard VPN, and Grafana/Prometheus scraping            |
 | [Arch on 2012 MacBook](./macbook-arch-install) | Arch Linux, Hyprland        | Optimized lightweight Linux for legacy hardware                                     |
 
 ## Skills Demonstrated
