@@ -42,10 +42,6 @@ The goal was to create a lightweight, stable, and productive system on older har
 | Performance Optimization | Tweaks for CPU scaling, memory usage, and GPU support for legacy MacBook  |
 | Automation               | Bash scripts for system updates and maintenance tasks                     |
 
-## 'hyprland.conf' snippet  
-monitor=1,1920x1200,0x0,1  
-bind=SUPER+ENTER,exec,foot  
-
 ## Automated Updates Script 'update.sh'  
 ```bash
 #!/bin/bash  
